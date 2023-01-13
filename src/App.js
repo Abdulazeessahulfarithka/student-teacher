@@ -1,17 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route,} from 'react-router-dom';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import Login from './components/Login/Login';
-import Student from './components/Student/Student';
-import Portal from "./components/Portal/Portal"
+import Login from './Components/Login/Login';
+import Student from './Components/Student/Student';
+import Portal from "./Components/Portal/Portal"
 import { useState } from 'react';
-import Mentor from './components/Teacher/Mentor';
-import MentorView from './components/Teacher/MentorView';
-import StudentView from './components/Student/StudentView';
-import AdmissionForm from './components/Student/AdmissionForm';
-import EditStudent from './components/Student/EditStudent';
-import { UserProvider } from './components/Context/UserContext';
+import Mentor from './Components/Teacher/Mentor';
+import MentorView from './Components/Teacher/MentorView';
+import StudentView from './Components/Student/StudentView';
+import AdmissionForm from './Components/Student/AdmissionForm';
+import EditStudent from './Components/Student/EditStudent';
+import { UserProvider } from './Components/Context/UserContext';
 
 function App() {
   const [mentorVisible, setMentorVisible] = useState(false);
